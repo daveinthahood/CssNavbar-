@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(184, 37, 37);
+}
+
+.navbar {
+  display: flex;
+  height: 40px;
+  border-bottom: 1px solid white;
+  background-color: #21252a;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 15px;
+}
+
+.logo {
+  color: white;
+}
+
+.menu {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menu-items{
+  display: flex;
+  gap: 10px;
+  flex-grow: 1;
+  
+}
+
+.navbar .hamburger {
+  display: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_items{
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+
+.disabled {
+  pointer-events: none;
+  color: rgba(240,248,255,0.4);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(174, 182, 189);
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid green;
+  color: green;
+  border-radius: 2px;
+}
+
+.search_bar button:hover {
+  background-color: rgb(2,92,2);
+  color: white;   
+}
+
+@media only screen and (max-width: 767px) {}
+
